@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja Strona</title>
+    <style>
+        body {
+            background-color: #D3D3D3;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: blue;
+        }
+        p {
+            color: green;
+            font-style: italic;
+        }
+        a:hover {
+            color: red;
+        }
+        ul {
+            margin-top: 10px;
+        }
+        img {
+            width: 200px;
+            margin-top: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin: 5px 0;
+        }
+        input[type="text"] {
+            padding: 5px;
+            margin-bottom: 10px;
+            width: 200px;
+        }
+        button {
+            padding: 6px 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Andrii</h1>
+    <p>Tytul</p>
+    <a href="https://wsiz.edu.pl" target="_blank">Odwiedź stronę WSIZ</a>
+
+    <h2>Moje hobby</h2>
+    <ul>
+        <li>Programowanie</li>
+        <li>Programowanie</li>
+        <li>Programowanie</li>
+    </ul>
+
+    <img src="https://www.google.com/imgres?q=wsiz&imgurl=https%3A%2F%2Fiph.rzeszow.pl%2Fwp-content%2Fuploads%2F2022%2F12%2Fwsiz.jpg&imgrefurl=https%3A%2F%2Fiph.rzeszow.pl%2Ffirmy-czlonkowskie%2Fgas-trading-podkarpacie-sp-z-o-o-2%2F&docid=xaqPwXQEFdEqvM&tbnid=vV4sD1gL3kkWEM&vet=12ahUKEwiH0PqAkOyMAxXjBxAIHTFbMxkQM3oECEwQAA..i&w=448&h=260&hcb=2&ved=2ahUKEwiH0PqAkOyMAxXjBxAIHTFbMxkQM3oECEwQAA" alt="Przykładowy obraz">
+
+    <h2>Moje projekty</h2>
+    <table>
+        <tr>
+            <th>Nazwa</th>
+            <th>Data</th>
+            <th>Opis</th>
+        </tr>
+        <tr>
+            <td>Strona Portfolio</td>
+            <td>01-10</td>
+            <td>Strona</td>
+        </tr>
+        <tr>
+            <td>Blog IT</td>
+            <td>02-10</td>
+            <td>Blog</td>
+        </tr>
+        <tr>
+            <td>Gra</td>
+            <td>03-11</td>
+            <td>Gra w JavaScript</td>
+        </tr>
+    </table>
+    <h2>Formularz kontaktowy</h2>
+    <form action="#" method="post">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name">
+
+        <label>
+            <input type="checkbox" name="newsletter">
+            Zgadzam się na otrzymywanie newslettera
+        </label>
+
+        <button type="submit">Wyślij</button>
+    </form>
+
+</body>
+</html>
