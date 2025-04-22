@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja strona</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        #czas {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        #gra {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="tekst">Witaj!</h1>
+    <button onclick="zmienTekst()">Kliknij mnie</button>
+
+    <div id="czas"></div>
+
+    <div id="gra">
+        <h2>Gra: Zgadnij liczbę od 0 do 100</h2>
+        <input type="number" id="propozycja" placeholder="Wpisz liczbę">
+        <button onclick="sprawdzLiczbe()">Sprawdź</button>
+        <p id="wynik"></p>
+    </div>
+</body>
+</html>
