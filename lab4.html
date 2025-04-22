@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Obiekty w JavaScript</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        input {
+            margin: 5px 0;
+            padding: 5px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 6px 12px;
+        }
+        #wynik {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Prostokąt – Obliczenia</h2>
+    <label for="bokA">Bok A:</label><br>
+    <input type="number" id="bokA"><br>
+    <label for="bokB">Bok B:</label><br>
+    <input type="number" id="bokB"><br>
+    <button onclick="obliczProstokat()">Oblicz prostokąt</button>
+
+    <div id="wynik"></div>
+
+</body>
+</html>
